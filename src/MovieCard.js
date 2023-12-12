@@ -20,7 +20,7 @@ const MovieCard = ({ movie }) => {
 
       <Col md={8}>
         <h3>{movie.title}</h3>
-        <p style={{ textAlign: "justify", lineHeight: "30px" }}>
+        <p style={{ textAlign: "justify", lineHeight: "31px" }}>
           {movie.description}
         </p>
         <h6 style={{ marginTop: "20px" }}>Rating: {movie.rating}</h6>
